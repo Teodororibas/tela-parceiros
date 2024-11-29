@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('menu-adm.css');
+
+
+.tela-titulo {
+    font-size: 30px;
+}
+
+.parceiros-pref {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: auto auto;
+   gap: 80px;
+   justify-items: center;
+   margin-right: 750px; 
+   position: relative; 
+   top: -145px; 
+   
+}
+
+.parceiros-pref img { 
+   display: flex;
+   max-width: 170px;  
+   height: auto;  
+   cursor: pointer;
+}
+
+
+.geral {
+   display: flex;
+   height: 500px;
+   display: flex;
+   margin-left: 850px;
+   margin-bottom: -380px;
+}
+
+
+
+.button-cadastrar {
+   display: flex;
+   margin-top: 465px;
+   margin-left: 277px;
+   border: none;
+   background-color: rgba(61, 72, 240, 1);
+   border-radius: 10px;
+   padding: 7px 14px;
+   color: white;
+   font-weight: 550;
+   cursor: pointer;
+   left: 43%;
+   position: absolute;
+   box-shadow: 0 4px 8px rgba(61, 72, 240, 1); 
+   width: 90px;
+   font-size: 11px;
+   text-align: center;
+}
+
+
+@media(max-width: 375) {
+   
+
+}
+
+
+
+
+
+
+
+
+
+
